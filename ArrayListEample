@@ -4,8 +4,10 @@ public static void main(String[] args){
 
 // Here the codeL1 is created with empty list and then we add the elements using "add()".
 // We can use functions like "size()" ---> used for... to know ArrayList size.
-// "remove(index)" or "remove(value)" ---> is used to remove elements from list, using the index or value .
+// "remove(index)" or "remove(value)" ---> is used to remove elements from list, using the index or the value.
 // "set(index, "value")" ---> is used for setting the index value with new one (like replacing the previous one with new value in that particularly mentioned index.)
+//
+
 ArrayList<String> codeL1 = new ArrayList<String>(); //<--Empty List'.
 codeL1.add("C");
 codeL1.add("Cpp");
@@ -13,6 +15,19 @@ codeL1.add("Python");
 codeL1.add("Java");
 codeL1.add("HTML");
 System.out.println(codeL1);
+		System.out.println(codeL1.size());
+		codeL1.remove(1);
+		System.out.println(codeL1);
+		codeL1.set(0, "JavaScript");
+		System.out.println(codeL1);
+if(codeL1.contains("HTML")){
+System.out.println("The HTML element found");
+}
+else{
+System.out.println("The HTML element not found");
+}
+		
+
 
 // or write code like
 
