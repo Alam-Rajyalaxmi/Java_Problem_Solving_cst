@@ -1,0 +1,15 @@
+import java.util.*;
+public class DigitCountStr{
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+String input=sc.next();
+int digitCount=0;
+for(int i=0; i<length(); i++){
+char ch = input.CharAt(i);
+if(Character.isDigit(ch)){
+digitCount++;
+}
+}
+System.out.println(digitCount);
+}
+}
