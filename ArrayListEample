@@ -2,11 +2,14 @@ import java.util.*;
 public class ArrayListEx{
 public static void main(String[] args){
 
+//__________functions_________
 // Here the codeL1 is created with empty list and then we add the elements using "add()".
 // We can use functions like "size()" ---> used for... to know ArrayList size.
 // "remove(index)" or "remove(value)" ---> is used to remove elements from list, using the index or the value.
 // "set(index, "value")" ---> is used for setting the index value with new one (like replacing the previous one with new value in that particularly mentioned index.)
-//
+
+//__________Methods____________
+// "Collections.sort(codeL1)" ---- it's an example for sorting the array elements... like for String use alphabetic order and for numeric use numbers.
 
 ArrayList<String> codeL1 = new ArrayList<String>(); //<--Empty List'.
 codeL1.add("C");
