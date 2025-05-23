@@ -51,7 +51,8 @@ ArrayList<Integer> i = new ArrayList<Integer>();
 		i.add(19);
 		Collections.sort(i);
 		System.out.println(i);
-
+System.out.println(Collections.max(i)); //-----> Maximun element from the list. O/P Ex:70
+System.out.println(Collections.min(i)); //-----> Minimun element from the list. O/P Ex:1
 }
 }
 
