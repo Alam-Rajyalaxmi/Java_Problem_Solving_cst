@@ -31,13 +31,28 @@ System.out.println("The HTML element found");
 else{
 System.out.println("The HTML element not found");
 }
+for(String str:codeL1){  //------> this for-each loop is used to print the elements in line by line.
+System.out.println(str);
+}
 		
-
 
 // or write code like
 
 //Here the codeL2 is created with initialized list like fixed elements using "Arrays.asList". 
 ArrayList<String> codeL2 = new ArrayList<String>(Arrays.asList("Java", "Python"));
 System.out.println(codeL2);
+
+ArrayList<Integer> i = new ArrayList<Integer>();
+		i.add(10);
+		i.add(1);
+		i.add(15);
+		i.add(70);
+		i.add(04);
+		i.add(19);
+		Collections.sort(i);
+		System.out.println(i);
+
 }
 }
+
+
