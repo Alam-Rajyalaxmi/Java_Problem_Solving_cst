@@ -1,0 +1,23 @@
+import java.util.*;
+public class ArrayListEx{
+public static void main(String[] args){
+
+// Here the codeL1 is created with empty list and then we add the elements using "add()".
+// We can use functions like "size()" ---> used for... to know ArrayList size.
+// "remove(index)" or "remove(value)" ---> is used to remove elements from list, using the index or value .
+// "set(index, "value")" ---> is used for setting the index value with new one (like replacing the previous one with new value in that particularly mentioned index.)
+ArrayList<String> codeL1 = new ArrayList<String>(); //<--Empty List'.
+codeL1.add("C");
+codeL1.add("Cpp");
+codeL1.add("Python");
+codeL1.add("Java");
+codeL1.add("HTML");
+System.out.println(codeL1);
+
+// or write code like
+
+//Here the codeL2 is created with initialized list like fixed elements using "Arrays.asList". 
+ArrayList<String> codeL2 = new ArrayList<String>(Arrays.asList("Java", "Python"));
+System.out.println(codeL2);
+}
+}
