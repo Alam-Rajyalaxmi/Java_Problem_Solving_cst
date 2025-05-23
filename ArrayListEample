@@ -3,6 +3,7 @@ public class ArrayListEx{
 public static void main(String[] args){
 
 //__________functions_________
+// "get(index)" ----> to get the particular value of... that the mentioned index.
 // Here the codeL1 is created with empty list and then we add the elements using "add()".
 // We can use functions like "size()" ---> used for... to know ArrayList size.
 // "remove(index)" or "remove(value)" ---> is used to remove elements from list, using the index or the value.
@@ -18,6 +19,7 @@ codeL1.add("Python");
 codeL1.add("Java");
 codeL1.add("HTML");
 System.out.println(codeL1);
+System.out.println(codeL1.get(2));  // ----> the o/p: Python 
 		System.out.println(codeL1.size());
 		codeL1.remove(1);
 		System.out.println(codeL1);
