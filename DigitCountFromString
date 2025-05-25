@@ -13,3 +13,4 @@ digitCount++;
 System.out.println(digitCount);
 }
 }
+
