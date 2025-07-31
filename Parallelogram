@@ -1,0 +1,24 @@
+import java.util.*;
+public class Pal{
+   Static int B, H;
+   Static boolean flag;
+   Static{
+    Scanner sc=new Scanner(System.in);
+    B=sc.nextInt();
+    H=sc.nextInt();
+    if(B>0 && H>0){
+          flag="True";
+    }
+else{
+falg="False";
+System.out.println("Give the Bridth and Height as positive.");
+}
+   }
+
+public static void main(String ar[]){
+if(flag){
+int area=B*H;
+System.out.println(area);
+}
+}
+}
